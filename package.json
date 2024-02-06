@@ -5,12 +5,11 @@
   "scripts": {
     "build": "rm -rf ./public/robots.txt ./public/sitemap.xml && yarn postbuild && next build",
     "postbuild": "next-sitemap",
-    "dev": "node ./scripts/next.js",
+    "start": "node ./scripts/next.js",
     "export": "next export",
     "format": "prettier --write \"./**/*.{ts,tsx,js,jsx,json}\" --config ./.prettierrc",
     "lint": "next lint",
     "lint-fix": "next lint --fix",
-    "start": "next start",
     "test": "jest --watch",
     "test:ci": "jest --ci"
   },
