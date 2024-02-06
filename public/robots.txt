@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nhatloi-project-nextjs-bd66af11t-phannhatloi.vercel.app/
+
+# Sitemaps
+Sitemap: https://nhatloi-project-nextjs-bd66af11t-phannhatloi.vercel.app/sitemap.xml

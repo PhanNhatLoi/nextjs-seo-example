@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
+    "build": "rm -rf ./public/robots.txt ./public/sitemap.xml && yarn postbuild && next build",
+    "postbuild": "next-sitemap",
     "dev": "node ./scripts/next.js",
     "export": "next export",
     "format": "prettier --write \"./**/*.{ts,tsx,js,jsx,json}\" --config ./.prettierrc",
@@ -22,6 +23,7 @@
     "mongodb": "^6.3.0",
     "mongoose": "^8.0.3",
     "next": "14.0.4",
+    "next-sitemap": "^4.2.3",
     "nprogress": "^0.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
