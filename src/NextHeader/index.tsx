@@ -14,7 +14,7 @@ function NextHeader(props: Props) {
 
   const defaultProps: NextSeoProps = {
     title: `${title} | LearnDev | IT99`,
-    canonical: 'https://www.canonical.ie/',
+    canonical: SITE_URL,
     description:
       'Welcome to the channel "LearnDev99". Here you will be able to watch videos with content surrounding building a website. Includes html css tutorials, css animation and css effects, javascript and jquery tutorials...Knowledge related to css effect, Web design ideas, TypeScript, ReactJs, NextJs, dev tips...',
     openGraph: {
