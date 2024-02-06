@@ -34,9 +34,24 @@ function NextHeader(props: Props) {
             href: '/images/logo.png'
           }
         ]}
+        additionalMetaTags={[
+          {
+            property: 'dc:creator',
+            content: 'Jane Doe'
+          },
+          {
+            name: 'google-site-verification',
+            content: '329PkCOAlB8JapopchbQVBteUsSWNRZv9L95pITSESI'
+          },
+          {
+            httpEquiv: 'x-ua-compatible',
+            content: 'IE=edge; chrome=1'
+          }
+        ]}
         {...defaultProps}
         {...seoProps}
       />
+
       <h1>{`${title} | LearnDev | IT99`}</h1>
     </>
   );
