@@ -1,6 +1,4 @@
 import 'nprogress/nprogress.css';
-
-import Head from 'next/head';
 import Router from 'next/router';
 import nProgress from 'nprogress';
 import React from 'react';
