@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://nhatloi-project-nextjs-bd66af11t-phannhatloi.vercel.app/
+Host: https://nhatloi-project-nextjs.vercel.app/
 
 # Sitemaps
-Sitemap: https://nhatloi-project-nextjs-bd66af11t-phannhatloi.vercel.app/sitemap.xml
+Sitemap: https://nhatloi-project-nextjs.vercel.app/sitemap.xml
